@@ -9,7 +9,7 @@
 
 <!doctype html>
 <html <?php language_attributes() ?>>
-<head>
+<head class="no-js">
 
     <meta charset="utf-8">
 
@@ -25,3 +25,5 @@
     <?php wp_head(); ?>  
 </head>
 <body data-mobile-nav-style="classic">
+
+   <?php get_template_part('template-parts/section', 'nav'); ?>

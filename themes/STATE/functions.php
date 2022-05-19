@@ -4,6 +4,7 @@
  * 
  * @package STATE
  */
+@include 'lib/speed-optimizer.php';
 
 function state_enqueue_scripts()
 {
@@ -13,12 +14,12 @@ function state_enqueue_scripts()
         wp_enqueue_style('style-css');
 
         //Register Scripts
-        wp_register_script('modernizr-js', get_template_directory_uri() . '/assets/js/vendor/modernizr-3.5.0.min.js', '', false, true);
+        wp_register_script('modernizr-js', get_template_directory_uri() . '/assets/js/vendor/modernizr-3.5.0.min.js', '', null, true);
         // Enqueue Scripts
         wp_enqueue_script('modernizr-js');
                 
         //Register Scripts
-        wp_register_script('index-js-defer', get_template_directory_uri() . '/assets/js/index.js', '', false, true);
+        wp_register_script('index-js-defer', get_template_directory_uri() . '/assets/js/index.js', array('jquery'), null, true);
         // Enqueue Scripts
         wp_enqueue_script('index-js-defer');
 
