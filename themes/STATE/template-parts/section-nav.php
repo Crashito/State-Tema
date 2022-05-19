@@ -13,9 +13,9 @@
                 <div class="container-lg nav-header-container">
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.html">
-                            <img src="images/logo-white.png" data-at2x="images/logo-white@2x.png" class="default-logo" alt="">
-                            <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" class="alt-logo" alt="">
-                            <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" class="mobile-logo" alt="">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png" data-at2x="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png" data-at2x="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png" class="alt-logo" alt="">
+                            <img src="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png" data-at2x="<?php bloginfo('template_directory');?>/assets/images/logotipo_white.png" class="mobile-logo" alt="">
                         </a>
                     </div>
                     <div class="col-auto menu-order px-lg-0">

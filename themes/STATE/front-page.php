@@ -13,10 +13,10 @@
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-12 col-xl-8 col-md-10 col-lg-8 full-screen flex-column d-flex justify-content-center text-center md-landscape-h-600px">
-                        <div class="border-color-golden-transparent border-all border-width-8px padding-7-half-rem-all lg-padding-4-half-rem-all xs-padding-2-rem-all">
-                            <i class="line-icon-French-Fries title-large-2 text-golden margin-3-half-rem-bottom"></i>
-                            <h1 class="title-large alt-font font-weight-600 text-white text-uppercase letter-spacing-minus-4px margin-3-half-rem-bottom mx-auto sm-letter-spacing-minus-1px">Delicious<br /> Cooking</h1>
-                            <span class="alt-font text-medium text-uppercase letter-spacing-3px text-white opacity-7 d-block">Experience the taste of italy</span>
+                        <div class="page-title-extra-large border-color-golden-transparent border-all border-width-8px padding-7-half-rem-all lg-padding-4-half-rem-all xs-padding-2-rem-all">
+                            <i class="line-icon-Home title-large-2 text-golden margin-3-half-rem-bottom"></i>
+                            <h1 class="alt-font font-weight-600 text-white text-uppercase margin-3-half-rem-bottom mx-auto">Descubre tu próximo hogar</h1>
+                            <span class="alt-font text-medium text-uppercase letter-spacing-3px text-white opacity-7 d-block">construcción y estética inolvidables</span>
                         </div>
                     </div>
                     <div class="down-section text-center"><a href="#about" class="section-link up-down-ani"><i class="ti-mouse icon-small bounce text-white"></i></a></div>
@@ -32,11 +32,11 @@
                         <img src="https://via.placeholder.com/150x149" alt=""/>
                     </div>
                     <div class="col-12 col-xl-4 col-lg-5 col-sm-7 text-center text-sm-start md-margin-20px-bottom wow animate__fadeIn" data-wow-delay="0.3s">
-                        <h5 class="alt-font font-weight-500 text-extra-dark-gray mb-0 letter-spacing-minus-1px">Now enjoy a wonderful cafe <span class="font-weight-700">dining experience</span> and healthy food</h5>
+                        <h5 class="alt-font font-weight-500 text-extra-dark-gray mb-0 letter-spacing-minus-1px">Disfruta de la extraordinaria experiencia que tenemos para ti.</h5>
                     </div>
                     <div class="col-12 col-lg-5 col-md-7 col-sm-8 text-center text-sm-start padding-6-rem-left lg-padding-15px-left wow animate__fadeIn" data-wow-delay="0.5s">
-                        <p class="margin-20px-bottom">Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.</p>
-                        <a href="about-us.html" class="btn btn-link btn-extra-large text-extra-dark-gray">About experience</a>
+                        <p class="margin-20px-bottom">Construimos casas o edificios con las mejores practicas y con una atención al diseño que no olvidaras.</p>
+                        <a href="about-us.html" class="btn btn-link btn-extra-large text-extra-dark-gray">Acerca de nosotros</a>
                     </div>
                 </div>
             </div>
