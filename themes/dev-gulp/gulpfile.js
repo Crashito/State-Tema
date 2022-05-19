@@ -17,7 +17,7 @@ const gulp = require('gulp'),
 
     
         
-const root = '../PPSTECH/';
+const root = '../STATE/';
 
 const php = root + '**.php',
     js = root + 'assets/js/',
@@ -106,41 +106,17 @@ function process_img() {
 function purgeStyle() {
     return gulp.src(css + 'style.min.css')
         .pipe(
-            purgecss({ html: ['http://localhost/ppstech/'] })
+            purgecss({ html: ['http://localhost/state/'] })
         )   
         .pipe(rename('purgedCss.css'))
         .pipe(gulp.dest(css+'purgedStyle/'));
         
 }
 
-
-/*
-xm - 550 x 800
-sm - 768 x 1080
-md - 993 x 1200
-hd - 1920 x 1080
-*/
-function critical() {
-        const page = 'control-de-acceso';
-        return gulp.src(css+'style.min.css')
-        .pipe(criticalCss({
-            out: 'critical.php', // output file name
-            url: 'https://localhost/ppstech/'+page, // url from where we want penthouse to extract critical styles
-            width:  1920, // max window width for critical media queries
-            height: 1080, // max window height for critical media queries
-            userAgent: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' // pretend to be googlebot when grabbing critical page styles.
-        }))
-        .pipe(cleanCSS())
-        .pipe(autoprefixer())
-        .pipe(rename(page+'.php'))
-        .pipe(gulp.dest(css + 'above-the-fold/'));
-}
-
-
 function watch() {
     browserSync.init({
         open: 'external',
-        proxy: 'http://localhost/ppstech/',
+        proxy: 'http://localhost/state/',
         port: 8080,
         browser: ["msedge"]
     });
@@ -160,7 +136,6 @@ exports.process_scss = process_scss;
 exports.process_js = process_js;
 exports.process_img = process_img;
 exports.process_img_marca = process_img_marca;
-exports.critical = critical;
 exports.purgeStyle = purgeStyle;
 
 
