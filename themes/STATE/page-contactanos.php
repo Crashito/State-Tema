@@ -8,20 +8,14 @@
 <?php get_header(); ?>
 
         <!-- start page title -->
-        <section class="bg-light-gray padding-40px-tb sm-padding-30px-tb page-title-small">
+        <section class="parallax" data-parallax-background-ratio="0.5" style="background-image:url('https://via.placeholder.com/1920x1100');">
+            <div class="opacity-extra-medium bg-extra-dark-gray"></div>
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8 col-lg-6 text-center text-lg-start">
-                        <h1 class="alt-font text-extra-dark-gray font-weight-500 no-margin-bottom d-inline-block">Contact us</h1>
-                        <span class="alt-font text-medium d-block d-md-inline-block sm-margin-5px-top">Short tagline goes here</span>
+                <div class="row align-items-stretch justify-content-center small-screen">
+                    <div class="col-12 position-relative page-title-extra-small text-center d-flex align-items-center justify-content-center flex-column">
+                        <h2 class="text-white alt-font font-weight-500 w-55 md-w-65 sm-w-80 center-col xs-w-100 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom">Contáctanos</h2>
                     </div>
-                    <div class="col-xl-4 col-lg-6 text-center text-lg-end breadcrumb justify-content-center justify-content-lg-end text-small alt-font md-margin-15px-top">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li>Contact us</li>
-                        </ul>
-                    </div>
+                    <div class="down-section text-center"><a href="#about" class="section-link"><i class="ti-arrow-down icon-extra-small text-white bg-transparent-black padding-15px-all xs-padding-10px-all border-radius-100"></i></a></div>
                 </div>
             </div>
         </section>
@@ -29,7 +23,7 @@
         <!-- start section -->
         <section>
             <div class="container">
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2">
                     <!-- start feature box item -->
                     <div class="col md-margin-50px-bottom sm-margin-30px-bottom">
                         <div class="feature-box text-center">
@@ -65,19 +59,6 @@
                             <div class="feature-box-content last-paragraph-no-margin">
                                 <span class="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray text-small text-uppercase">E-mail Us</span>
                                 <p><a href="mailto:info@yourdomain.com" class="text-sky-blue-hover">info@yourdomain.com</a><br><a href="mailto:hr@yourdomain.com" class="text-light-blue text-sky-blue-hover">hr@yourdomain.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start feature box item -->
-                    <div class="col">
-                        <div class="feature-box text-center">
-                            <div class="feature-box-icon">
-                                <i class="line-icon-Information icon-extra-medium text-fast-blue margin-30px-bottom md-margin-15px-bottom sm-margin-10px-bottom"></i>
-                            </div>
-                            <div class="feature-box-content last-paragraph-no-margin">
-                                <span class="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray text-small text-uppercase">Customer Services</span>
-                                <p class="d-inline-block w-70 lg-w-90 md-w-60 sm-w-80 xs-w-100">Lorem ipsum is simply dummy the printing</p>
                             </div>
                         </div>
                     </div>
@@ -142,34 +123,6 @@
                             </form>
                             <!-- end contact form -->
                         </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center wow animate__fadeIn">
-                    <div class="col-12 col-lg-10 d-flex flex-row align-items-center justify-content-center text-center margin-7-half-rem-top">
-                        <span class="col-auto w-40px h-1px bg-dark-gray opacity-3"></span>
-                        <div class="alt-font font-weight-500 text-large text-extra-dark-gray padding-20px-lr">We like to talk and on the strength of that you are invited for a coffee</div>
-                        <span class="col-auto w-40px h-1px bg-dark-gray opacity-3"></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
-        <!-- start section -->
-        <section class="half-section">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-lg-6 col-md-7 col-sm-6 text-center text-sm-start sm-margin-25px-tb xs-margin-30px-bottom">
-                        <h6 class="alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom">Are you ready to work with us?</h6>
-                        <a href="contact-us-classic.html" class="btn btn-extra-large btn-link text-fast-blue">Start a Project</a>
-                    </div>
-                    <div class="col-12 col-lg-6 col-md-5 col-sm-6 social-icon-style-02 text-center text-sm-end sm-margin-25px-tb xs-no-margin-top">
-                        <span class="alt-font text-medium d-block margin-10px-bottom">Connect with social media</span>
-                        <ul class="small-icon">
-                            <li><a class="facebook text-extra-dark-gray text-center text-sm-end" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="twitter text-extra-dark-gray text-center text-sm-end" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a class="dribbble text-extra-dark-gray text-center text-sm-end" href="http://www.dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                            <li><a class="linkedin text-extra-dark-gray text-center text-sm-end" href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
