@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page template.
+ * Template Name: Oferta
  * 
  * @package STATE
  **/

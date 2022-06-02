@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page template.
+ * Template Name: Contactanos
  * 
  * @package STATE
  **/
