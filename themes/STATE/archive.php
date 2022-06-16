@@ -13,6 +13,9 @@
 
         <h1><?php echo single_cat_title();?></h1>
 
+		<div class="d-flex">
+			<?php get_template_part('template-parts/section', 'archive'); ?>
+		</div>
 
 		<?php get_template_part('template-parts/section', 'archive'); ?>
 

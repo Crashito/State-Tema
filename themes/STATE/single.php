@@ -1,6 +1,7 @@
 <?php
 /**
  * Single template. 
+ * Pagina de un post de blog.
  * 
  * @package STATE
  **/

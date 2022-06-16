@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ *Pagina base de paginas
  * 
  * 
  **/

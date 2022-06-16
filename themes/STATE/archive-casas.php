@@ -1,11 +1,11 @@
 <?php
 /**
- * Template Name: Oferta
  * 
- * @package STATE
  **/
+
 ?>
-<?php get_header(); ?>
+<?php get_header();?>
+
 
         <!-- start page title -->
         <section class="parallax" data-parallax-background-ratio="0.5" style="background-image:url('https://via.placeholder.com/1920x1100');">
@@ -39,21 +39,31 @@
                 </div>
             </div>
 
-
-
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 filter-content">
                         <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
-                            <li class="grid-sizer"></li>
-
-                            
-
+                            <li class="grid-sizer">
+								<?php get_template_part('template-parts/section', 'archive'); ?>
+							</li>
                         </ul>
                     </div>
                 </div>
+				<div class="row">
+					<?php 
+						global $wp_query;
+
+						$big = 999999999;
+						echo paginate_links(array(
+							'base' => str_replace($big, '%#%',esc_url(get_pagenum_link($big))),
+							'format'=> '?paged=%#%',
+							'current' => max(1,get_query_var('paged')),
+							'total' => $wp_query->max_num_pages
+						));
+					?>
+				</div>
             </div>
         </section>
         <!-- end section -->
 
-<?php get_footer(); ?>
+<?php get_footer();?>
