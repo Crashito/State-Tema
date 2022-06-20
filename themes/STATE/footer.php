@@ -1,4 +1,4 @@
-<footer class="footer-restaurant footer-light padding-60px-tb border-top border-color-black-transparent md-padding-80px-top">
+<footer class="footer-restaurant footer-light padding-60px-tb border-top border-color-black-transparent md-padding-80px-top bg-light-gray">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 sm-margin-15px-bottom">
