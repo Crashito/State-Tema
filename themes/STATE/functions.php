@@ -15,6 +15,10 @@ function state_enqueue_scripts()
         wp_register_style('style-css', get_template_directory_uri() . '/assets/css/style.min.css', array(), false, 'all');
         // Enqueue Styles
         wp_enqueue_style('style-css');
+
+        wp_register_style('custom-css', get_template_directory_uri() . '/assets/css/custom.css', array(), false, 'all');
+        // Enqueue Styles
+        wp_enqueue_style('custom-css');
                 
         //Register Scripts
         wp_register_script('index-js', get_template_directory_uri() . '/assets/js/index.js', array('jquery'),false , true);

@@ -10,7 +10,7 @@
                         </ul>
                     </div>
                     <div class="col-12 col-md-6 text-center text-md-end last-paragraph-no-margin">
-                        <p class="alt-font text-small text-uppercase">&copy; 2021 Litho is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-extra-dark-gray text-uppercase font-weight-600">ThemeZaa</a></p>
+                        <p class="alt-font text-small text-uppercase">&copy; 2022 Todos los derechos reservados <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-extra-dark-gray text-uppercase font-weight-600">State</a></p>
                     </div>
                 </div>
             </div>

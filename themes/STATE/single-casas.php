@@ -10,36 +10,20 @@
 ?>
 <?php get_header();?>
 
+        <style>
+
+        
+
+            <?php echo get_the_post_thumbnail_url()?>
+        </style>
         <!-- start banner section -->
-        <section class="pb-0 overflow-visible position-relative bg-light-gray padding-eleven-lr lg-padding-four-lr">
+        <section id="start-banner-section" class="pb-0 overflow-visible position-relative bg-light-gray padding-eleven-lr lg-padding-four-lr">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-6 order-2 z-index-1 padding-10-rem-left padding-60px-bottom lg-padding-3-rem-left md-padding-15px-left">
                         <div class="d-flex flex-column justify-content-center h-100">
-                            <div class="alt-font text-fast-blue text-uppercase font-weight-500 margin-30px-bottom xs-margin-10px-bottom">
-
-
-                            <?php 
-                            $tags = get_the_tags();    
-                            if($tags):foreach($tags as $tag):
-                            ?>
-
-                                    <a class="text-fast-blue" href="<?php echo get_tag_link($tag->term_id); ?>">
-                                        <?php echo $tag->name?>
-                                    </a><span class="margin-10px-lr">&#8226;</span> 
-
-
-                            <?php endforeach; endif;?>
-
-                            
-                            </div>
-
-                            <h3 class="alt-font font-weight-500 letter-spacing-minus-1px text-extra-dark-gray margin-15px-bottom"> <?php the_field('colonia');?> </h3>
-                            <p class="text-extra-large  margin-0px-top margin-15px-bottom"><?php the_field('calle');?> </p>
-
-                            <p class="text-extra-large "> Desde: <span class="title-extra-small">	$<?php echo number_format( get_field('precio'),2,'.',',') ;?> MXN </span></p>
-
-
+                            <h3 class="alt-font font-weight-500 letter-spacing-minus-1px text-extra-dark-gray "><?php the_title(); ?></h3>
+                            <h6 class="alt-font d-block margin-15px-bottom title-extra-small"> <?php echo get_field('calle'); ?> </h6>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 px-0 order-1 align-self-end md-margin-60px-bottom d-flex justify-content-center">
@@ -49,13 +33,15 @@
             </div>
         </section>
         <!-- end banner section -->
+
+
         
         <!-- start section -->
         <section class="padding-70px-top sm-padding-50px-top position-relative padding-60px-bottom">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-12 col-xl-5 col-lg-6 last-paragraph-no-margin padding-3-half-rem-left md-padding-15px-left">
-                        <?php the_field('descripcion'); ?>
+                     <?php the_content(); ?>
                     </div>
                 </div>
             </div>
@@ -155,7 +141,7 @@
                                                         <div class="panel-group accordion-event accordion-style-04" id="accordion2" data-active-icon="icon-feather-minus" data-inactive-icon="icon-feather-plus">
                                                             <div class="row">
                                                                     <div class="col-12 px-5">
-                                                                        <?php the_content(); ?>
+                                                                        <?php the_field('descripcion'); ?>
                                                                     </div>
                                                             </div>    
                                                         </div>
