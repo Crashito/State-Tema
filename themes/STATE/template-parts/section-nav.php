@@ -13,9 +13,9 @@
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.html">
                             
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_black.png" class="default-logo" alt="">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_black.png"  class="alt-logo" alt="">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_black.png" class="mobile-logo" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_main_02.png" class="default-logo" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_main_02.png"  class="alt-logo" alt="">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logotipo_main_02.png" class="mobile-logo" alt="">
                         </a>
                     </div>
                     <div class="col-auto menu-order px-lg-0">

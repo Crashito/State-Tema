@@ -15,8 +15,8 @@
             #start-banner-section{
                 overflow: auto;
                 position: relative;
-                background: rgb(144,97,22);
-                background: linear-gradient(177deg, rgba(144,97,22,1) 0%, rgba(202,148,61,0.3538332813594187) 35%, rgba(202,148,61,0.005) 100%);
+                background: rgb(92,92,92);
+                background: linear-gradient(180deg, rgba(92,92,92,0.7543935054490546) 0%, rgba(81,81,81,0.8020125530681023) 24%, rgba(51,51,51,0.6311442057291667) 52%, rgba(87,87,87,0.3706400040484944) 83%, rgba(163,163,163,0) 100%);
             }
 
             #start-banner-section::before{
@@ -47,8 +47,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 order-2 z-index-1 padding-10-rem-left padding-60px-bottom lg-padding-3-rem-left md-padding-15px-left">
                         <div class="d-flex flex-column justify-content-center h-100">
-                            <h3 class="alt-font font-weight-500 letter-spacing-minus-1px text-extra-dark-gray "><?php the_title(); ?></h3>
-                            <h6 class="alt-font d-block margin-15px-bottom title-extra-small"> <?php echo get_field('calle'); ?> </h6>
+                            <h3 class="alt-font font-weight-500 letter-spacing-minus-1px text-white "><?php the_title(); ?></h3>
+                            <h6 class="alt-font d-block margin-15px-bottom title-extra-small text-white"> <?php echo get_field('calle'); ?> </h6>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 px-0 order-1 align-self-end md-margin-60px-bottom d-flex justify-content-center">
