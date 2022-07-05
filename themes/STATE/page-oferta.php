@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
         <!-- start page title -->
-        <section class="parallax" data-parallax-background-ratio="0.5" style="background-image:url('https://via.placeholder.com/1920x1100');">
+        <section class="parallax" data-parallax-background-ratio="0.5" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/images/desarrollos-hero.png');">
             <div class="opacity-extra-medium bg-extra-dark-gray"></div>
             <div class="container">
                 <div class="row align-items-stretch justify-content-center small-screen">
@@ -23,33 +23,16 @@
         <!-- end page title -->
         <!-- start section -->
         <section class="padding-four-lr bg-light-gray lg-padding-two-lr sm-no-padding-lr">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <!-- start filter navigation -->
-                        <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
-                            <li class="nav active"><a data-filter="*" href="#">All</a></li>
-                            <li class="nav"><a data-filter=".branding" href="#">Branding</a></li>
-                            <li class="nav"><a data-filter=".graphics" href="#">Graphics</a></li>
-                            <li class="nav"><a data-filter=".logos" href="#">Logos</a></li>
-                            <li class="nav"><a data-filter=".photography" href="#">Photography</a></li>
-                        </ul>
-                        <!-- end filter navigation -->
-                    </div>
-                </div>
-            </div>
-
-
 
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 filter-content">
-                        <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
-                            <li class="grid-sizer"></li>
+                        
+                        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-4">
+                            <?php get_template_part('template-parts/section', 'construccion'); ?>
+                        </div>
 
-                            
-
-                        </ul>
+                        
                     </div>
                 </div>
             </div>

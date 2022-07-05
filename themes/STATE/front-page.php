@@ -127,11 +127,6 @@
                 </div>
             </section>
             <!-- end section -->
-            <!-- start section -->
-            <section class="overflow-visible position-relative py-0 wow animate__zoomIn">
-                <a href="#"><img class="absolute-middle-center md-w-150px sm-w-100px" src="https://via.placeholder.com/198x197" alt="" /></a>
-            </section>
-            <!-- end section -->
 
         </div>
 

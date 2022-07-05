@@ -16,7 +16,6 @@
                                 <div class="padding-40px-tb position-relative text-center d-flex align-items-center justify-content-center w-auto xs-padding-15px-tb">
                                     <div class="d-inline-block align-top">
                                         <div class="text-large text-tussock font-weight-600 px-3 line-height-30px mb-3"><?php echo get_the_title( $post['ID']); ?></div>
-                                        <span> <?php echo  substr( get_the_excerpt($post['ID']) , 0, 200) ; ?>... </span>
                                     </div>
                                 </div>
                             </a>

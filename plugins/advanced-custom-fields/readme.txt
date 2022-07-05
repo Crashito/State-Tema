@@ -14,6 +14,8 @@ Customize WordPress with powerful, professional and intuitive fields. Proudly po
 
 Advanced Custom Fields turns WordPress sites into a fully-fledged content management system by giving you all the tools to do more with your data.
 
+https://deliciousbrains.wistia.com/medias/md7ea4ep8z
+
 Use the Advanced Custom Fields plugin to take full control of your WordPress edit screens & custom field data.
 
 **Add fields on demand.** Our field builder allows you to quickly and easily add fields to WP edit screens with only the click of a few buttons!
